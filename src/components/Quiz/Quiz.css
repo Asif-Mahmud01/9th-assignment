@@ -1,0 +1,31 @@
+.quiz img{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.quiz{
+    padding: 40px;
+}
+.quiz-details{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(161, 89, 229);
+}
+@media only screen and (max-width: 600px){
+    .quiz img{
+        width: 100%;
+    }
+}

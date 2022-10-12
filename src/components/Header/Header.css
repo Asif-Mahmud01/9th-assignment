@@ -1,0 +1,25 @@
+.header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;;
+}
+.header nav{
+    margin-top: 35px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding:5px 30px;
+}
+.header h1{
+    color: blueviolet;
+}
+@media only screen and (max-width: 600px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
