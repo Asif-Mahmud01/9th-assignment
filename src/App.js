@@ -21,12 +21,6 @@ function App() {
           element: <Topics></Topics>
         },
         {
-          path: '/Topic',
-          // loader: () => fetch('products.json'),
-          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
-          element: <Topics></Topics>
-        },
-        {
           path: '/Statistics',
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           // loader: productsAndCartLoader,
