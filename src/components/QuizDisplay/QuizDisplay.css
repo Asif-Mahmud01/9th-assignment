@@ -14,3 +14,19 @@ p.card-question{
     font-size: 25px;
     font-weight: 500;
 }
+.eye-btn img{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    
+}
+.eye-btn{
+    margin-bottom:30px ;
+    background-color: transparent;
+}
+.eye-btn:hover{
+    background-color: transparent;
+}
+h3 {
+    display: none;
+}
