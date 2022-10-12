@@ -1,0 +1,16 @@
+
+
+.card-body{
+    display: grid;
+    justify-content: center;
+}
+.card-options{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 40px;
+    background: antiquewhite;
+}
+p.card-question{
+    font-size: 25px;
+    font-weight: 500;
+}
