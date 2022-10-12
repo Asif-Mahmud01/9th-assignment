@@ -16,9 +16,7 @@ const Statistics = () => {
                 <YAxis />
                 <Tooltip />
             </LineChart>}
-            {/* <LineChart width={490} height={400} data={data}>
-            <Line type="monotone" dataKey="total" stroke="#8884d8" />
-            </LineChart> */}
+            
         </div>
     );
 };
